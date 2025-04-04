@@ -1328,7 +1328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6075471, g: 0.59035236, b: 0.59035236, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2881,6 +2881,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: background
       objectReference: {fileID: 0}
+    - target: {fileID: 4271949710047162090, guid: 4637c3809caf47f48a705227237e6d70, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9076334413829364963, guid: 7eedcd80df54c5e47b8213423b276079, type: 3}
     - target: {fileID: 8110222982570475189, guid: 4637c3809caf47f48a705227237e6d70, type: 3}
       propertyPath: m_Pivot.x
       value: 0
