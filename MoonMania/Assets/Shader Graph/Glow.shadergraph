@@ -52,9 +52,6 @@
             "m_Id": "3d54a6bdd9854be08f8e9509e5004157"
         },
         {
-            "m_Id": "fb3e5da1d2094689b4578794df247eb3"
-        },
-        {
             "m_Id": "8a8695cf2f114d11892cffcd0333790f"
         },
         {
@@ -177,9 +174,6 @@
             },
             {
                 "m_Id": "cbee49d43b7443f6b0205cbdd8d3719e"
-            },
-            {
-                "m_Id": "fb3e5da1d2094689b4578794df247eb3"
             },
             {
                 "m_Id": "8a8695cf2f114d11892cffcd0333790f"
@@ -932,21 +926,6 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "a2495c1aa52448bc81e218be0febda6c",
-    "m_Id": 0,
-    "m_DisplayName": "Alpha Clip Threshold",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "AlphaClipThreshold",
-    "m_StageCapability": 2,
-    "m_Value": 0.5,
-    "m_DefaultValue": 0.5,
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "a3aec9d995a944c1b7704bb2e169c39c",
     "m_Id": 0,
     "m_DisplayName": "Alpha",
@@ -1238,40 +1217,6 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.BaseColor"
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
-    "m_ObjectId": "fb3e5da1d2094689b4578794df247eb3",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "SurfaceDescription.AlphaClipThreshold",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": 0.0,
-            "y": 0.0,
-            "width": 0.0,
-            "height": 0.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "a2495c1aa52448bc81e218be0febda6c"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_SerializedDescriptor": "SurfaceDescription.AlphaClipThreshold"
 }
 
 {
