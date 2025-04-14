@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 771ac4b77f4222541818dac81aa5ce7d
+guid: 3616f07eee167b748823d6a7ea44938c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9126293044149966116
-    second: bel_0
+      213: 3485550032679931981
+    second: blue-horizontal-lens-flares-laser-beams-horizontal-light-rays-beautiful-light-flares-glowing-streaks-on-transparent-background-glowing-stripes-laser-beams-sparks-and-stars-png_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bel_0
+      name: blue-horizontal-lens-flares-laser-beams-horizontal-light-rays-beautiful-light-flares-glowing-streaks-on-transparent-background-glowing-stripes-laser-beams-sparks-and-stars-png_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1200
-        height: 1040
+        y: 60
+        width: 433
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cdaa25b54d4e85180800000000000000
-      internalID: -9126293044149966116
+      spriteID: d401db899492f5030800000000000000
+      internalID: 3485550032679931981
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bel_0: -9126293044149966116
+      blue-horizontal-lens-flares-laser-beams-horizontal-light-rays-beautiful-light-flares-glowing-streaks-on-transparent-background-glowing-stripes-laser-beams-sparks-and-stars-png_0: 3485550032679931981
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
