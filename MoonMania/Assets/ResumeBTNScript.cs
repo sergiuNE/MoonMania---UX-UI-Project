@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class ResumeBTNScript : MonoBehaviour
 {
     public GameObject pauseMenuUI;
+    public GameObject settingsPanelUI;
     public bool isPaused = false;
 
     void Update()
@@ -25,6 +26,7 @@ public class ResumeBTNScript : MonoBehaviour
     public void Resume()
     {
         pauseMenuUI.SetActive(false);
+        settingsPanelUI.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
     }
@@ -32,6 +34,7 @@ public class ResumeBTNScript : MonoBehaviour
     public void Pause()
     {
         pauseMenuUI.SetActive(true);
+        settingsPanelUI.SetActive(false);
         Time.timeScale = 0f;
         isPaused = true;
     }
@@ -45,21 +48,34 @@ public class ResumeBTNScript : MonoBehaviour
 
     private void OnMenuSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // Try to find and refresh canvas in Menu scene
+        SceneManager.sceneLoaded -= OnMenuSceneLoaded;
+        // Start coroutine to wait for next frame
+        StartCoroutine(RefreshCanvasNextFrame());
+    }
+
+    private System.Collections.IEnumerator RefreshCanvasNextFrame()
+    {
+        yield return null; // Wait one frame
+
         Canvas canvas = GameObject.FindObjectOfType<Canvas>();
         if (canvas != null)
         {
             canvas.enabled = false;
+            yield return null; // Wait one more frame just in case
             canvas.enabled = true;
         }
-
-        // Remove the event listener after it's done
-        SceneManager.sceneLoaded -= OnMenuSceneLoaded;
     }
+
 
     public void OpenSettings()
     {
-        // You can implement your settings menu logic here later
-        Debug.Log("Settings menu opened (not implemented yet).");
+        pauseMenuUI.SetActive(false);            // Hide pause panel
+        settingsPanelUI.SetActive(true);         // Show settings panel
+    }
+
+    public void CloseSettings()
+    {
+        settingsPanelUI.SetActive(false);        // Hide settings
+        pauseMenuUI.SetActive(true);             // Show pause menu again
     }
 }
