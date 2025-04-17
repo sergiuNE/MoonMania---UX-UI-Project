@@ -35,6 +35,21 @@ public class SettingsToggle : MonoBehaviour
     {
         UpdateVisuals(isOn);
 
+        string toggleName = gameObject.name;
+
+        switch (toggleName)
+        {
+            case "MusicToggle":
+                AudioManager.Instance.ToggleMusic(isOn);
+                break;
+            case "SFXToggle":
+                AudioManager.Instance.ToggleSFX(isOn);
+                break;
+            case "MenuToggle":
+                AudioManager.Instance.ToggleMenu(isOn);
+                break;
+        }
+
         // Save the new state
         PlayerPrefs.SetInt(toggleKey, isOn ? 1 : 0);
         PlayerPrefs.Save(); // Optional but good practice
