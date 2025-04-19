@@ -44,6 +44,7 @@ public class ResumeBTNScript : MonoBehaviour
         Time.timeScale = 1f; // Reset time in case it's still paused
         SceneManager.sceneLoaded += OnMenuSceneLoaded; // Attach event before loading
         SceneManager.LoadScene("Menu"); // Make sure your menu scene is named "Menu"
+        //SceneHelper.Instance.LoadMenuSceneWithCanvasRefresh();
     }
 
     private void OnMenuSceneLoaded(Scene scene, LoadSceneMode mode)

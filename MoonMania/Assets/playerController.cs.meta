@@ -1,2 +1,13 @@
 fileFormatVersion: 2
 guid: 748bf953ccfb3324d8150f63ce5d376b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - magneticField: {instanceID: 0}
+  - magnetSound: {fileID: 8300000, guid: 6dd64868250e60541bbaeb0d5675c8f3, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
