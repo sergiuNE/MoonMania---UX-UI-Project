@@ -23,8 +23,7 @@ public class MoveToPlayer : MonoBehaviour
     {
         if (magnet.GetComponent<playerController>().isAttracting && canMove)
         {
-            print("attract");
-            transform.position = Vector2.MoveTowards(transform.position, magnet.transform.position, 35 * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, magnet.transform.position, 200 * Time.deltaTime);
         }
     }
 

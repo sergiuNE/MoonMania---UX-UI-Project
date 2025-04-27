@@ -44,7 +44,7 @@ public class LevelScript : MonoBehaviour
         }
     }
 
-    public void CompleteLevel(int levelIndex)
+    public static void CompleteLevel(int levelIndex)
     {
         PlayerPrefs.SetInt("Level" + levelIndex + "_Completed", 1);
         int currentUnlocked = PlayerPrefs.GetInt("UnlockedLevel", 1);

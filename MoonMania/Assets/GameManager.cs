@@ -5,14 +5,23 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public int score;
+    public int goal;
     public GameObject scoreText;
     public GameObject victoryPanel;
     public GameObject gameOverPanel;
     private bool hasWon = false;
     private bool hasLost = false;
+    public static int Level = 2;
+
+    public string SetLevel()
+    {
+        Level = 1;
+        return "test";
+    }
 
     void Awake()
     {
+        LevelScript.CompleteLevel(2);
         // Zoek objecten als ze niet zijn toegewezen
         if (victoryPanel == null)
             victoryPanel = GameObject.Find("VictoryPanel");
@@ -26,7 +35,27 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        score = 300;
+            score = 300;
+        if (Level == 2)
+        {
+            goal = 550;
+        }
+        if (Level == 3)
+        {
+            goal = 600;
+        }
+        if (Level == 4)
+        {
+            goal = 650;
+        }
+        if (Level == 5)
+        {
+            goal = 700;
+        }
+        if (Level == 6)
+        {
+            goal = 750;
+        }
         hasWon = false;
         hasLost = false;
 
@@ -60,7 +89,7 @@ public class GameManager : MonoBehaviour
         UpdateScoreText();
 
         // Controleer op overwinning
-        if (!hasWon && !hasLost && score >= 550)
+        if (!hasWon && !hasLost && score >= goal)
         {
             hasWon = true;
             if (victoryPanel != null)

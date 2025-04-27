@@ -12,7 +12,7 @@ public class VictoryPanel : MonoBehaviour
         int nextIndex = currentIndex + 1;
 
         // Mark this level as complete
-        FindObjectOfType<LevelScript>().CompleteLevel(currentIndex);
+        LevelScript.CompleteLevel(currentIndex);
 
         // Hide the victory panel
         if (victoryPanelUI != null)
@@ -23,7 +23,8 @@ public class VictoryPanel : MonoBehaviour
         // Check if the next scene exists
         if (nextIndex < SceneManager.sceneCountInBuildSettings)
         {
-            SceneManager.LoadScene(nextIndex);
+            GameManager.Level++;
+            SceneManager.LoadScene(GameManager.Level);
         }
         else
         {
