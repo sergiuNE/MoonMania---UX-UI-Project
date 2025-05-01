@@ -26,6 +26,8 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
+  - EFFECT_BUMP
+  - EFFECT_HUE_VARIATION
   - _EMISSION
   - _SURFACE_TYPE_TRANSPARENT
   m_LightmapFlags: 0
@@ -198,6 +200,7 @@ Material:
     - _BASE_COLOR_WEIGHT: 1
     - _BUMP_MAP_STRENGTH: 0.3
     - _BillboardKwToggle: 0
+    - _BillboardShadowFade: 0.5
     - _Blend: 0
     - _BlendOp: 0
     - _BumpScale: 1
@@ -230,6 +233,7 @@ Material:
     - _GlowAmount: 11
     - _HueVariationKwToggle: 1
     - _Intensity: 1
+    - _LeafFacingKwToggle: 0
     - _LightingEnabled: 0
     - _METALNESS: 0
     - _Metallic: 0
@@ -265,6 +269,7 @@ Material:
     - _SubsurfaceKwToggle: 0
     - _Surface: 1
     - _TRANSPARENCY: 0
+    - _TwoSided: 2
     - _UVSec: 0
     - _UseUIAlphaClip: 0
     - _WIND_BRANCH1: 0
@@ -281,6 +286,7 @@ Material:
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 0.08627451, g: 0.79607844, b: 1, a: 0.8}
     - _ColorAddSubDiff: {r: -1, g: 1, b: 0, a: 0}
+    - _ColorTint: {r: 1, g: 1, b: 1, a: 1}
     - _EMISSION_COLOR: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}

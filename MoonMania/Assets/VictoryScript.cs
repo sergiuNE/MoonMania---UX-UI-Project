@@ -31,4 +31,9 @@ public class VictoryPanel : MonoBehaviour
             // Optional: Show "Coming Soon" UI here
         }
     }
+
+    public void QuitToMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }
