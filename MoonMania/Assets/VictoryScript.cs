@@ -3,7 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class VictoryPanel : MonoBehaviour
 {
-    // Drag your actual panel GameObject here in the Inspector
     public GameObject victoryPanelUI;
 
     public void OnNextLevelClicked()

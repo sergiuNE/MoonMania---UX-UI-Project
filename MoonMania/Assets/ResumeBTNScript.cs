@@ -9,7 +9,6 @@ public class ResumeBTNScript : MonoBehaviour
 
     void Update()
     {
-        // Toggle pause when Escape is pressed
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isPaused)
