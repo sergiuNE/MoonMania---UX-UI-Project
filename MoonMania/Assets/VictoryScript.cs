@@ -19,7 +19,6 @@ public class VictoryPanel : MonoBehaviour
             victoryPanelUI.SetActive(false);
         }
 
-        // Check if the next scene exists
         if (nextIndex < SceneManager.sceneCountInBuildSettings)
         {
             GameManager.Level++;
@@ -28,7 +27,6 @@ public class VictoryPanel : MonoBehaviour
         else
         {
             Debug.Log("🚧 Next level not created yet.");
-            // Optional: Show "Coming Soon" UI here
         }
     }
 
