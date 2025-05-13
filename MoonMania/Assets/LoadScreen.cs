@@ -20,22 +20,18 @@ public class LoadScreen : MonoBehaviour
         }
         if (GameManager.Level == 3)
         {
-
             GameObject.Find("GoalTxt").GetComponent<TextMeshProUGUI>().text = "Goal: $600";
         }
         if (GameManager.Level == 4)
         {
-
             GameObject.Find("GoalTxt").GetComponent<TextMeshProUGUI>().text = "Goal: $650";
         }
         if (GameManager.Level == 5)
         {
-
             GameObject.Find("GoalTxt").GetComponent<TextMeshProUGUI>().text = "Goal: $700";
         }
         if (GameManager.Level == 6)
         {
-
             GameObject.Find("GoalTxt").GetComponent<TextMeshProUGUI>().text = "Goal: $750";
         }
     }

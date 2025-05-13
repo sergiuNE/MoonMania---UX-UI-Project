@@ -19,15 +19,28 @@ public class VictoryPanel : MonoBehaviour
             victoryPanelUI.SetActive(false);
         }
 
-        if (nextIndex < SceneManager.sceneCountInBuildSettings)
+        if (SceneManager.GetActiveScene().buildIndex == 1)
         {
-            GameManager.Level++;
-            SceneManager.LoadScene(GameManager.Level);
+            GameManager.Level = 2;
         }
-        else
+        else if (SceneManager.GetActiveScene().buildIndex == 2)
         {
-            Debug.Log("🚧 Next level not created yet.");
+            GameManager.Level = 3;
         }
+        else if (SceneManager.GetActiveScene().buildIndex == 3)
+        {
+            GameManager.Level = 4;
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 4)
+        {
+            GameManager.Level = 5;
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 5)
+        {
+            GameManager.Level = 6;
+        }
+
+        SceneManager.LoadScene(1);
     }
 
     public void QuitToMenu()
