@@ -53,4 +53,26 @@ public class LevelScript : MonoBehaviour
             PlayerPrefs.SetInt("UnlockedLevel", levelIndex + 1);
         }
     }
+
+    // methode om alle levels te resetten
+    public void ResetAllLevels()
+    {
+        // Reset de UnlockedLevel naar 1 (alleen level 1 open)
+        PlayerPrefs.SetInt("UnlockedLevel", 1);
+
+        // Reset de completed status van alle levels
+        for (int i = 1; i <= levelButtons.Length; i++)
+        {
+            PlayerPrefs.SetInt("Level" + i + "_Completed", 0);
+        }
+
+        // Forceer het opslaan van de PlayerPrefs naar de schijf
+        PlayerPrefs.Save();
+
+        // Debug log om te verifiëren dat de reset wordt uitgevoerd
+        Debug.Log("Alle levels gereset. Alleen level 1 is nu open. UnlockedLevel = " + PlayerPrefs.GetInt("UnlockedLevel", 1));
+
+        // Update de level UI om de wijzigingen weer te geven
+        UpdateLevelUI();
+    }
 }
