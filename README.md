@@ -1,6 +1,6 @@
 # MoonMania
 
-**MoonMania** is a creative and immersive game where you play as an astronaut stranded on a Martian rock, using a futuristic magnet to collect various materials. Developed in Unity, the game was created as a project for the UX Design course by two enthusiastic students.
+**MoonMania** is a creative and immersive game where you play as an astronaut stranded on a Martian rock, using a futuristic magnet to collect various materials. Developed in Unity, the game was created as a project for the UX/UI Design course.
 
 ---
 
@@ -24,12 +24,9 @@ In **MoonMania**, you control an astronaut sitting on a rock on Mars. Armed with
 
 ---
 
-## 👨‍🚀 Developers
+## 👨‍🚀 Developer
 
-This game was created by two students as part of the **UX Design** course.
-
-- Neagu Sergiu  
-- Rottiers Milan
+This game was created by Neagu Sergiu as part of the **UX/UI Design** course.
 
 ---
 
