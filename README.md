@@ -26,7 +26,8 @@ In **MoonMania**, you control an astronaut sitting on a rock on Mars. Armed with
 
 ## 👨‍🚀 Developer
 
-This game was created as part of the **UX/UI Design** course.
+This game was created by Neagu Sergiu as part of the **UX/UI Design** course.
+Special thanks to Milan Rottiers who provided some assistance with the project, contributing to 3-4 specific features/uploads.
 
 ---
 
