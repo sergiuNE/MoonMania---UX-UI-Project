@@ -34,4 +34,4 @@ This game was created by Neagu Sergiu as part of the **UX/UI Design** course.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/MilanRottiers/UXproject.git
+   git clone https://github.com/sergiuNE/MoonMania---UX-UI-Project.git
