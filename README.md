@@ -31,7 +31,7 @@ Special thanks to Milan Rottiers who provided some assistance with the project, 
 
 ---
 
-## 🚀 Installation
+## Installation
 
 1. Clone this repository:
    ```bash
