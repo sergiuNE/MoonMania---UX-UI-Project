@@ -4,11 +4,11 @@
 
 ---
 
-## 🎮 About the Game
+## About the Game
 
 In **MoonMania**, you control an astronaut sitting on a rock on Mars. Armed with a powerful futuristic magnet, you collect various types of materials falling from space or scattered across the surface. Each material has unique properties and contributes to your survival and score.
 
-🪐 **Features:**
+**Features:**
 - Unique gameplay with magnetic mechanics  
 - Sci-fi setting on the red planet Mars  
 - Futuristic and colorful design  
@@ -16,15 +16,15 @@ In **MoonMania**, you control an astronaut sitting on a rock on Mars. Armed with
 
 ---
 
-## 🛠️ Built With
+## Built With
 
-- 🎮 Unity (Game Engine)  
-- 🎨 UX Design principles  
-- 🧠 Creativity and teamwork
+- Unity (Game Engine)  
+- UX Design principles  
+- Creativity and teamwork
 
 ---
 
-## 👨‍🚀 Developer
+## Developer
 
 This game was created by Neagu Sergiu as part of the **UX/UI Design** course.
 Special thanks to Milan Rottiers who provided some assistance with the project, contributing to 2-3 specific features/uploads.
